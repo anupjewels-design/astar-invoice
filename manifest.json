@@ -1,0 +1,16 @@
+{
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "A Star Invoice",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "A Star",
+  "start_url": "/",
+  "theme_color": "#1a1a2e",
+  "description": "Diamond &amp; Gold Invoice App",
+  "share_target": {
+    "method": "GET"
+  },
+  "id": "com.astar.invoice"
+}
