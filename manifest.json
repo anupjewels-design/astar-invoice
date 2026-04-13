@@ -1,16 +1,26 @@
 {
-  "background_color": "#ffffff",
-  "dir": "ltr",
-  "display": "standalone",
   "name": "A Star Invoice",
-  "orientation": "any",
-  "scope": "/",
   "short_name": "A Star",
-  "start_url": "/",
+  "id": "com.astar.invoice",
+  "description": "Diamond & Gold Invoice App",
+  "start_url": "/astar-invoice/",
+  "scope": "/astar-invoice/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
   "theme_color": "#1a1a2e",
-  "description": "Diamond &amp; Gold Invoice App",
-  "share_target": {
-    "method": "GET"
-  },
-  "id": "com.astar.invoice"
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
 }
